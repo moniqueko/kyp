@@ -98,7 +98,7 @@ Infra
   - 해결 : 버전 업데이트
 
 - th:replace="headerFooter.html :: top-bar" 헤더 부분이 나오지 않는 오류
-  - 해결 : .html제거
+  - 해결 : 주소에서 맨앞 /(슬래쉬)제거
 
 - 구글 로그인 설정 후 http://localhost:8085로 접속시 구글 로그인 페이지로 강제이동하는 오류 발생
   - 해결 : webSecurity.java 파일의 href부분 수정
